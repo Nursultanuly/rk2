@@ -1,4 +1,6 @@
 #SapiAyazhan
+#lab8
+
 a=int(input())
 #a-енгіземіз
 if a==29:
