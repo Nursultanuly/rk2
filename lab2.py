@@ -1,3 +1,4 @@
+#SapiAyazhan
 a=int(input())
 #a-енгіземіз
 if a==29:
