@@ -14,7 +14,7 @@ def SumofSquares(list, n):
         summa += SquaredValue
     return summa
 
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list = [5, 7, 9, 11, 17]
 n = len(list)
 Total = SumofSquares(list, n)
-print("квадраттарының суммасы : ", Total)
+print("сумма квадратов : ", Total)
