@@ -1,4 +1,4 @@
-#SapiAyazhan
+#Yerassyl
 #lab8
 
 a=int(input())
