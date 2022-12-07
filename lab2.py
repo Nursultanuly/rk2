@@ -12,3 +12,4 @@ elif a == 92:
 else:
     #print орындалады
     print("404 not found")
+    print('Yerassyl')
