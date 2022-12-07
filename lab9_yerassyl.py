@@ -1,4 +1,6 @@
 from functools import reduce
+from tkinter import Canvas, Tk
+
 '''
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = []
@@ -153,3 +155,28 @@ nums2 = [5,2,3,3]
 print(solution_red(nums1, nums2))
 print(solution_ext(nums1, nums2))
 '''
+
+window = Tk()
+window.title('Логотип')
+
+c = Canvas(window, width=350, height=350, bg="bisque", cursor="pencil")
+#E
+c.create_line(50, 160, 50, 50, fill='dim grey', width=1.2)
+c.create_line(100, 50, 50, 50, fill='dim grey', width=1.2)
+c.create_line(100, 105, 50, 105, fill='dim grey', width=1.2)
+c.create_line(100, 160, 50, 160, fill='dim grey', width=1.2)
+#/
+c.create_line(105, 200, 150, 10, fill='darkkhaki', width=1.2)
+c.create_line(105, 200, 300, 200, fill='dim grey', width=1.2)
+c.create_line(255, 350, 300, 200, fill='darkkhaki', width=1.2)
+
+#Z
+c.create_line(150, 160, 200, 50, fill='dim grey', width=1.2)
+c.create_line(150, 50, 200, 50, fill='dim grey', width=1.2)
+c.create_line(150, 160, 200, 160, fill='dim grey', width=1.2)
+#H
+c.create_line(250, 50, 250, 160, fill='dim grey', width=1.2)
+c.create_line(300, 50, 300, 160, fill='dim grey', width=1.2)
+c.create_line(250, 105, 300, 105, fill='dim grey', width=1.2)
+c.pack()
+window.mainloop()
